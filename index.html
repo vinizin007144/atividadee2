@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro de Memes</title>
+</head>
+<body>
+    <h1>😂 Cadastro de Memes 😂</h1>
+
+    <form id="formMeme">
+        <input type="text" id="nome" placeholder="Nome do meme" required>
+        <input type="text" id="categoria" placeholder="Categoria (ex: Gato, Reação...)" required>
+        <button id="btnSalvar" type="submit">Cadastrar 🔥</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ranking</th>
+                <th>Meme</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+
+        <tbody id="corpoTabela"></tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
